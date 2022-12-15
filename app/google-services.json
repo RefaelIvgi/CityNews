@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "601570586099",
+    "firebase_url": "https://citynews-1b73a.firebaseio.com",
+    "project_id": "citynews-1b73a",
+    "storage_bucket": "citynews-1b73a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601570586099:android:9ae5e948ad00ad71",
+        "android_client_info": {
+          "package_name": "com.nowapp.citynews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601570586099-iu0eaapmg827d1sb3ctmh4a62lhim3lj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLvrLGVUvihhkYyR_0iU06isQaiN0EAUg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nowapp.citynews">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6806180347528583~8943230260"/>
+
+
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+
+
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ofakimpage" />
+        <activity android:name=".oryehudapage" />
+        <activity android:name=".orakivapage" />
+        <activity android:name=".eilatpage" />
+        <activity android:name=".eladpage" />
+        <activity android:name=".arielpage" />
+        <activity android:name=".ashdodpage" />
+        <activity android:name=".ashkelonpage" />
+        <activity android:name=".beeryakov" />
+        <activity android:name=".beersheva" />
+        <activity android:name=".betsheanpage" />
+        <activity android:name=".betshemeshpage" />
+        <activity android:name=".betarpage" />
+        <activity android:name=".bnebrakpage" />
+        <activity android:name=".bneaishpage" />
+        <activity android:name=".batyampage" />
+        <activity android:name=".givatbrenerpage" />
+        <activity android:name=".givatzeevpage" />
+        <activity android:name=".givatshmuelpage" />
+        <activity android:name=".givataimpage" />
+        <activity android:name=".gederapage" />
+        <activity android:name=".ganyavnepage" />
+        <activity android:name=".dimonapage" />
+        <activity android:name=".hodhasharonpage" />
+        <activity android:name=".herzeliyapage" />
+        <activity android:name=".zihronyakovpage" />
+        <activity android:name=".haderapage" />
+        <activity android:name=".hulonpage" />
+        <activity android:name=".haifapage" />
+        <activity android:name=".tveriapage" />
+        <activity android:name=".tirathakarmelpage" />
+        <activity android:name=".yavnepage" />
+        <activity android:name=".yadbinyaminpage" />
+        <activity android:name=".yahudpage" />
+        <activity android:name=".yokneampage" />
+        <activity android:name=".yeruhampage" />
+        <activity android:name=".jerusalempage" />
+        <activity android:name=".kfarhabadpage" />
+        <activity android:name=".kfarsabapage" />
+        <activity android:name=".karmielpage" />
+        <activity android:name=".lehavimpage" />
+        <activity android:name=".ludpage" />
+        <activity android:name=".mevaseretpage" />
+        <activity android:name=".modiinpage" />
+        <activity android:name=".mazkeretbatyapage" />
+        <activity android:name=".metulapage" />
+        <activity android:name=".maaleadumimpage" />
+        <activity android:name=".mizperamonpage" />
+        <activity android:name=".nahariapage" />
+        <activity android:name=".nitzanpage" />
+        <activity android:name=".neszionapage" />
+        <activity android:name=".nazratelitpage" />
+        <activity android:name=".nesherpage" />
+        <activity android:name=".netivotpage" />
+        <activity android:name=".natanyapage" />
+        <activity android:name=".akopage" />
+        <activity android:name=".afulapage" />
+        <activity android:name=".pardeshanapage" />
+        <activity android:name=".petahtikvapage" />
+        <activity android:name=".kesaryapage" />
+        <activity android:name=".atapage" />
+        <activity android:name=".bialikpage" />
+        <activity android:name=".gatpage" />
+        <activity android:name=".moskinpage" />
+        <activity android:name=".malahipage" />
+        <activity android:name=".ekronpage" />
+        <activity android:name=".shmonapage" />
+        <activity android:name=".roshainpage" />
+        <activity android:name=".roshpinapage" />
+        <activity android:name=".rishonpage" />
+        <activity android:name=".rehovotpage" />
+        <activity android:name=".ramlepage" />
+        <activity android:name=".ramatganpage" />
+        <activity android:name=".ramathasharonpage" />
+        <activity android:name=".rananapage" />
+        <activity android:name=".sderotpage" />
+        <activity android:name=".shoampage" />
+        <activity android:name=".telavivpage"></activity>
+    </application>
+
+</manifest>
