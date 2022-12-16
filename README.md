@@ -1,24 +1,4 @@
 
-השיחה נפתחה. הודעה אחת נקראה.
-
-דילוג לתוכן
-שימוש ב-Gmail עם קוראי מסך
-להפעיל התראות של Gmail בשולחן העבודה?
-   אישור  לא תודה
-23 מתוך 423
-readme‏‏
-דואר נכנס
-
-refael ivgi <ivgirefael@gmail.com‏>
-קבצים מצורפים
-יום ג׳, 6 בדצמ׳, 13:26 ‎(לפני 9 ימים)‎
-אני
-
-
- קובץ מצורף אחד
-  •  נסרקו על ידי Gmail
-
-
 <h1 align="center">Hi 👋, I'm Refael Ivgi</h1>
 <h3 align="center">A passionate software embedded developer</h3>
 
